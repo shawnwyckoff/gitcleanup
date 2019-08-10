@@ -3,7 +3,7 @@ detect &amp; clean executable programs for your git repo
 
 # install
 
-`go get -u https://github.com/smcduck/gitcleanup`
+`go get -u github.com/smcduck/gitcleanup`
 
 `go install github.com/smcduck/gitcleanup`
 
@@ -11,4 +11,6 @@ detect &amp; clean executable programs for your git repo
 
 `gitcleanup {which-dir-to-detect}`
 
-there will be a yes/no option if executable program files detected, if you want to delete them, select "yes"
+Executable program files like Windows .EXE / .DLL, Linux/Unix Program / .so / .lib. Shell scripts are NOT the targets to cleanup.
+
+There will be a yes/no option if executable program files detected, select "yes" if you really want that.
